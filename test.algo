@@ -1,0 +1,29 @@
+ALGORITHM add-num
+VAR
+    text := "We ask to read a sentence which ends with a point."
+    totalw := 0;
+    chcount := 0;
+    vcount := 0;
+BEGIN
+if (text.length - 1 := ".")
+then 
+read (text.length)
+/* if there is a vowel*/
+    function countVowel() { 
+
+    const vcount = text.match(/[aeiou]/gi).length;
+
+    return vcount;
+}
+/* word coount*/
+    function WordCount() {
+  var totalw = 0;
+  for (var i = 0; i < WordCount.length; i++)
+    if (str(i) === " ") {
+      totalw = +1;
+    }
+  totalw += 1;
+}
+
+
+END
